@@ -1,5 +1,5 @@
 # Use an official Python runtime as a parent image
-FROM --platform=linux/amd64 python:3.11.4-slim
+FROM --platform=linux/amd64 python:3.14.0-slim
 
 # Install pipenv
 RUN pip install pipenv
